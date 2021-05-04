@@ -5,6 +5,7 @@
         :placeholder="placeholder"
         class="mt-1 border p-2 focus:outline-none"
         :class="inputStyle"
+        :disabled="disabled"
     />
   </div>
 </template>

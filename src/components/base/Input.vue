@@ -1,13 +1,15 @@
 <template>
   <div class="flex flex-col" :class="containerStyle">
     <span class="text-green-700 font-semibold" :class="labelStyle">{{label}}</span>
+    <!--TODO-->
     <input
         :type="type"
         :placeholder="placeholder"
         v-model="value"
         :value="value"
         @change="onChange"
-        :read-only="readOnly"
+        :disabled="disabled"
+        :readOnly="readOnly"
         class="mt-1 border p-2 focus:outline-none"
         :class="inputStyle"
     >
