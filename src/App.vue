@@ -2,15 +2,15 @@
   <div class="w-full bg-gray-50">
     <div>
       <div class="inline-flex">
-        <div class="p-2 bg-green-600 rounded-full cursor-pointer text-white mb-12">Reset data</div>
+        <div class="p-2 bg-teal-700 rounded-full cursor-pointer text-white mb-12">Reset data</div>
 
       </div>
     </div>
     <div class="container px-4 mx-auto">
       <ul class="w-full inline-flex justify-end">
-        <li class="text-green-700 font-semibold mx-2 border-b-2 cursor-pointer uppercase border-transparent hover:border-green-700">Mon Compete</li>
-        <li class="text-green-700 font-semibold mx-2 border-b-2 cursor-pointer uppercase border-transparent hover:border-green-700">Mon Tableu de bord</li>
-        <li class="text-green-700 font-semibold mx-2 border-b-2 cursor-pointer uppercase border-green-700 hover:border-green-700">Demande</li>
+        <li class="text-teal-700 font-semibold mx-2 border-b-2 cursor-pointer uppercase border-transparent hover:border-green-700">Mon Compete</li>
+        <li class="text-teal-700 font-semibold mx-2 border-b-2 cursor-pointer uppercase border-transparent hover:border-green-700">Mon Tableu de bord</li>
+        <li class="text-teal-700 font-semibold mx-2 border-b-2 cursor-pointer uppercase border-green-700 hover:border-green-700">Demande</li>
       </ul>
 
       <div class="mt-4">
@@ -34,7 +34,7 @@
           <img class="w-14 h-14 rounded-full" src="https://phunugioi.com/wp-content/uploads/2020/01/avatar-doi-cho-nam-deo-khau-trang.jpg" alt="">
         </div>
         <div>
-          <div class="text-green-700 font-semibold uppercase">Detail de votro </div>
+          <div class="text-teal-700 font-semibold uppercase">Detail de votro </div>
           <div>Lorem ipsum dolor sit amet,</div>
         </div>
       </div>
@@ -53,7 +53,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
           <div class="flex flex-col relative">
-            <span class="text-green-700 font-semibold">Mon Fournisseur:</span>
+            <span class="text-teal-700 font-semibold">Mon Fournisseur:</span>
             <base-input read-only />
             <button class="absolute bottom-0 right-0 bg-green-700 py-2 px-3.5 border-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
@@ -75,16 +75,16 @@
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
           <label class="inline-flex items-center">
             <input type="radio" class="form-radio" name="accountType" value="personal">
-            <span class="ml-2 text-green-700 font-bold">Choisir ce Fournisseur 1</span>
+            <span class="ml-2 text-teal-700 font-bold">Choisir ce Fournisseur 1</span>
           </label>
           <label class="inline-flex items-center">
             <input type="radio" class="form-radio" name="accountType" value="busines">
-            <span class="ml-2 text-green-700 font-bold">Choisir ce Fournisseur 2</span>
+            <span class="ml-2 text-teal-700 font-bold">Choisir ce Fournisseur 2</span>
           </label>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
-          <span class="text-green-700 font-bold">Fournissieur propose 1</span>
+          <span class="text-teal-700 font-bold">Fournissieur propose 1</span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
@@ -102,7 +102,7 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
-          <span class="text-green-700 font-bold">Fournissieur propose 2</span>
+          <span class="text-teal-700 font-bold">Fournissieur propose 2</span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
@@ -122,7 +122,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-4 gap-4">
           <div></div>
           <div class="inline-flex justify-end">
-            <div class="p-2 bg-green-600 rounded-full cursor-pointer text-white mb-12">Reset data</div>
+            <div class="p-2 text-teal-700 rounded-full cursor-pointer text-white mb-12">Reset data</div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col" :class="containerStyle">
-    <span class="text-green-700 font-semibold" :class="labelStyle">{{label}}</span>
+    <span class="text-teal-700 font-semibold" :class="labelStyle">{{label}}</span>
     <!--TODO-->
     <input
         :type="type"
