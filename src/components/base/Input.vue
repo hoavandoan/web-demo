@@ -10,7 +10,7 @@
         @change="onChange"
         :disabled="disabled"
         :readOnly="readOnly"
-        class="mt-1 border p-2 focus:outline-none"
+        class="mt-1 border-2 py-2 px-3.5 focus:outline-none shadow-sm"
         :class="inputStyle"
     >
   </div>

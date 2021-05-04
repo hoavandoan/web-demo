@@ -3,7 +3,7 @@
     <span class="text-green-700 font-semibold" :class="labelStyle">{{label}}</span>
     <textarea
         :placeholder="placeholder"
-        class="mt-1 border p-2 focus:outline-none"
+        class="mt-1 border-2 py-2 px-3.5 shadow-sm focus:outline-none"
         :class="inputStyle"
         :disabled="disabled"
     />
